@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Dnamonk:$HF_TOKEN@huggingface.co/spaces/Dnamonk/Dnamonk/Search_Engine_LLM main
+        run: git push https://Dnamonk:$HF_TOKEN@huggingface.co/spaces/Dnamonk/Search_Engine_LLM main
